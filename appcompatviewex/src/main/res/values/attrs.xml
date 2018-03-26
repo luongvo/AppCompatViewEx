@@ -17,4 +17,10 @@
         <attr name="drawableTopCompat" />
         <attr name="drawableBottomCompat" />
     </declare-styleable>
+    <declare-styleable name="AppCompatEdiTextEx">
+        <attr name="drawableLeftCompat" />
+        <attr name="drawableRightCompat" />
+        <attr name="drawableTopCompat" />
+        <attr name="drawableBottomCompat" />
+    </declare-styleable>
 </resources>

@@ -57,4 +57,13 @@
         android:text="Facebook"
         app:drawableLeftCompat="@drawable/ic_facebook" />
 
+    <vn.luongvo.appcompatviewex.AppCompatEditTextEx
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:hint="Location"
+        app:drawableLeftCompat="@drawable/ic_location" />
+
 </LinearLayout>
