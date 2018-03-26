@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -22,7 +23,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_facebook" />
+            app:srcCompat="@drawable/ic_facebook" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,28 +33,28 @@
 
     </LinearLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="Use vector image in TextView, Button by drawableStart" />
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Use vector image in TextView, Button by drawableStart" />-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:drawablePadding="10dp"
-        android:drawableStart="@drawable/ic_facebook"
-        android:gravity="center_vertical"
-        android:text="Facebook" />
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:drawablePadding="10dp"-->
+    <!--android:drawableStart="@drawable/ic_facebook"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="Facebook" />-->
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:drawablePadding="10dp"
-        android:drawableStart="@drawable/ic_facebook"
-        android:gravity="center_vertical"
-        android:text="Facebook" />
+    <!--<Button-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="10dp"-->
+    <!--android:drawablePadding="10dp"-->
+    <!--android:drawableStart="@drawable/ic_facebook"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:text="Facebook" />-->
 
 </LinearLayout>
