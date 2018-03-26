@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="20dp"
-    tools:context="vn.luongvo.appcompatviewex.MainActivity">
+    tools:context="vn.luongvo.appcompatviewex.sample.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,20 +33,20 @@
 
     </LinearLayout>
 
-    <!--<TextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_marginTop="20dp"-->
-    <!--android:text="Use vector image in TextView, Button by drawableStart" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Use vector image in TextView, Button by drawableStart" />
 
-    <!--<TextView-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_marginTop="10dp"-->
-    <!--android:drawablePadding="10dp"-->
-    <!--android:drawableStart="@drawable/ic_facebook"-->
-    <!--android:gravity="center_vertical"-->
-    <!--android:text="Facebook" />-->
+    <vn.luongvo.appcompatviewex.AppCompatTextViewEx
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        app:drawableLeftCompat="@drawable/ic_facebook"
+        android:gravity="center_vertical"
+        android:text="Facebook" />
 
     <!--<Button-->
     <!--android:layout_width="wrap_content"-->
